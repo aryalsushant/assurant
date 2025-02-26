@@ -4,3 +4,6 @@
 *.h5 filter=lfs diff=lfs merge=lfs -text
 .jpg filter=lfs diff=lfs merge=lfs -text
 *.dylib filter=lfs diff=lfs merge=lfs -text
+venv/lib/python3.12/site-packages/tensorflow/compiler/mlir/stablehlo/stablehlo_extension.so filter=lfs diff=lfs merge=lfs -text
+venv/lib/python3.12/site-packages/tensorflow/libtensorflow_cc.2.dylib filter=lfs diff=lfs merge=lfs -text
+models/image_model.h5 filter=lfs diff=lfs merge=lfs -text
