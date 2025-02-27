@@ -9,6 +9,9 @@ The system takes the Claim ID as input and performs the following tasks:
 2. Analyzes the provided image to determine whether it has been manipulated.
 3. Assigns a legitimacy rating based on both the claim and image analysis.
 
+<img width="852" alt="Screenshot 2025-02-27 at 12 01 29 PM" src="https://github.com/user-attachments/assets/22b58d63-90e1-4137-9a00-f6cfd8929b07" />
+
+
 ## Features
 - **Image Manipulation Detection**: A CNN model trained to distinguish between manipulated and original images.
 - **Claim Analysis**: AI analysis of the claim based on its content, evaluating the legitimacy based on historical data and relevant factors.
